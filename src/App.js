@@ -10,11 +10,14 @@ import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ResumePage from './pages/ResumePage';
 import SkillsPage from './pages/SkillsPage';
+import HeroSection from './components/HeroSection';
 
 function App() {
   return (
     <Router >
+      <HeroSection />
       <Header />
+      
       <Routes>
         
         <Route path="/" exact element={<HomePage />} />
