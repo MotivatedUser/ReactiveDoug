@@ -10,11 +10,12 @@
 
 .heroText {
   position: absolute;
-  top: 65%;
-  left: 60%;
+  top: 62%;
+  left: 67%;
+  width: 60%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-size: 1rem;
+  color: rgb(251, 255, 2);
+  font-size: 1.35rem;
   opacity: 0;
   animation-name: fade-in;
   animation-duration: 3s;
@@ -24,11 +25,12 @@
 
 .heroText2 {
     position: absolute;
-    top: 80%;
-    left: 60%;
+    top: 79%;
+    left: 67%;
+    width: 60%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 1rem;
+    color: rgb(251, 255, 2);
+    font-size: 1.35rem;
     opacity: 0;
     animation-name: fade-in;
     animation-duration: 3s;
@@ -41,6 +43,7 @@
   position: absolute;
   top: 10%;
   left: 50%;
+  width: 80%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
@@ -58,5 +61,27 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .heroText {
+    font-size: 0.7rem;
+    font-weight: 700;
+    top: 60%;
+    animation-delay: 3s;
+  }
+
+  .heroText2 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    top: 80%;
+    animation-delay: 6s;
+  }
+
+  .heroTitle {
+    font-size: 2.75rem;
+    padding-top: 5%;
   }
 }
