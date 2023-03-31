@@ -1,0 +1,46 @@
+ 
+
+  
+  /* Links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Grid layout */
+  .resume {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+  }
+
+  .resume-Header {
+    text-align: center;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    .resume {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+  }
+  
