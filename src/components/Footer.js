@@ -12,7 +12,7 @@ import { FcPhone } from "react-icons/fc";
 
 const Footer = () => {
   return (
-    <footer className="site-footer">
+    <footer className="footer">
       <Container>
         <Row>
           <Col xs={{ size: 4, offset: 1 }} sm="2">

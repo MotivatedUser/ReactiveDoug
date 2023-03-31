@@ -7,7 +7,7 @@ const HeroSection = () => {
       <img
         className="heroImage"
         src={sunset}
-        alt="Sun shining under a rock bridge"
+        alt="A nice sunset in Otis Orchards, WA looking toward Spokane Valley, WA"
       />
       <div>
         <h5 className="heroTitle">Hello, I'm Doug Altermatt</h5>

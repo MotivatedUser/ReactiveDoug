@@ -36,9 +36,9 @@ const AboutPage = () => {
         </p>
         <p className="aboutText">
           In addition to my technical skills, I am an outgoing father who loves
-          spending time outdoors with my family. Whether it's camping or
+          spending time outdoors with my family. Whether it's camping, fishing or
           watching deer, I relish the opportunity to connect with nature and
-          make memories with loved ones. I also have a strong entrepreneurial
+          make memories with friends and loved ones. I also have a strong entrepreneurial
           spirit and am always seeking new opportunities to innovate and make a
           positive impact.
         </p>
