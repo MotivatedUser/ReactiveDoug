@@ -1,3 +1,7 @@
+.containerAll {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .heroSection {
   position: relative;
 }
@@ -8,35 +12,30 @@
   object-fit: cover;
 }
 
-.heroText {
+.heroText, .heroTitle {
   position: absolute;
-  top: 62%;
-  left: 67%;
-  width: 60%;
   transform: translate(-50%, -50%);
-  color: rgb(251, 255, 2);
+  color: white;
   font-size: 1.35rem;
+  text-shadow: 3px 3px 12px black;
   opacity: 0;
   animation-name: fade-in;
   animation-duration: 3s;
-  animation-delay: 5s;
   animation-fill-mode: forwards;
 }
 
+.heroText1 {
+  top: 62%;
+  left: 67%;
+  width: 60%;
+  animation-delay: 4s;
+}
+
 .heroText2 {
-    position: absolute;
-    top: 79%;
-    left: 67%;
-    width: 60%;
-    transform: translate(-50%, -50%);
-    color: rgb(251, 255, 2);
-    font-size: 1.35rem;
-    opacity: 0;
-    animation-name: fade-in;
-    animation-duration: 3s;
-    animation-delay: 8s;
-    animation-fill-mode: forwards;
-  
+  top: 79%;
+  left: 67%;
+  width: 60%;
+  animation-delay: 7s;
 }
 
 .heroTitle {
@@ -45,15 +44,33 @@
   left: 50%;
   width: 80%;
   transform: translate(-50%, -50%);
-  color: white;
   text-align: center;
   font-size: 3rem;
-  opacity: 0;
-  animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 1s;
-  animation-fill-mode: forwards;
 }
+
+.aboutContainer {
+  padding: 5% 8%;
+}
+.aboutTitle {
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 3%;
+}
+.aboutText {
+  font-size: 1.25em;
+}
+.sliderContainer {
+  text-align: center;
+}
+
+.sliderImage {
+  width: 60%;
+  height: auto;
+  border-radius: 20%;
+}
+
 
 @keyframes fade-in {
   from {
