@@ -18,7 +18,7 @@ const Header = () => {
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
                 {/* <img src={} alt='logo' className='float-start' /> */}
-                <h1 className='mt-1'>Dougs Portfolio</h1>
+                <h1 className='mt-1'>Doug's Portfolio</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>

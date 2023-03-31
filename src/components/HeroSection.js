@@ -24,6 +24,9 @@ const HeroSection = () => {
           collaborations on exciting projects. Let's work together to bring our
           ideas to life!
         </p>
+        <p className="heroText heroText3" >
+        Scroll Down to Discover...
+        </p>
       </div>
     </>
   );
