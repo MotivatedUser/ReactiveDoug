@@ -239,3 +239,17 @@ transform: translateY(-50%);
     transform: translateY(-50%);
     }
 }
+.skills-h2 {
+  color: white;
+}
+.btn-link {
+  background-color: blue;
+}
+.resumeButton {
+  background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-size: 16px;
+    margin-bottom: 1%;
+}

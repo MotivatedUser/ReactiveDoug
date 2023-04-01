@@ -1,4 +1,5 @@
 import React from 'react';
+import DownloadResumeButton from './DownloadResumeButton';
 import './Resume.css';
 
 function Resume() {
@@ -6,7 +7,7 @@ function Resume() {
     <>
             
             <div className="resume-Header" >
-                <h1 className="pp2H1">Doug Altermatt</h1>
+                <h1 className="pp2H1">Doug Altermatt's Resume Page</h1>
                 <a
                     role='button'
                     className='btn btn-link'
@@ -36,7 +37,10 @@ function Resume() {
                 >
                     <i className='fa fa-location-arrow' />
                     Newman Lake, WA 99025
-                </a>
+                </a>  
+                <DownloadResumeButton />
+
+                
                 <br />
 
             </div>

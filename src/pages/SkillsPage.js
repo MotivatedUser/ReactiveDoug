@@ -1,8 +1,15 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import Skills from '../components/Skills'
 
 const SkillsPage = () => {
   return (
-    <div>Skills Here in a good looking format.</div>
+    <>
+    <Header />
+    <Skills />
+    <Footer />
+    </>
   )
 }
 
