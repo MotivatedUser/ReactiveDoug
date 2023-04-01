@@ -1,5 +1,5 @@
-import React from "react";
 import sunset from "../images/sunset.jpeg";
+import React from 'react'
 
 const HeroSection = () => {
   return (
@@ -24,6 +24,7 @@ const HeroSection = () => {
           collaborations on exciting projects. Let's work together to bring our
           ideas to life!
         </p>
+        
         <p className="heroText heroText3" >
         Scroll Down to Discover...
         </p>

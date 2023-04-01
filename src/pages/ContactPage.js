@@ -8,7 +8,7 @@ const ContactPage = () => {
     <>
     <Header />
     <ContactForm />
-    <Footer />
+    
     </>
   )
 }
