@@ -1,7 +1,9 @@
+/* Global Styles */
 .containerAll {
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* Hero Section */
 .heroSection {
   position: relative;
 }
@@ -12,16 +14,15 @@
   object-fit: cover;
 }
 
-.heroText, .heroTitle {
+.heroText,
+.heroTitle {
   position: absolute;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 1.35rem;
   text-shadow: 3px 3px 12px black;
   opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
+  animation: fade-in 3s forwards;
 }
 
 .heroText1 {
@@ -46,7 +47,7 @@
 }
 
 .heroTitle {
-  position: absolute;
+
   top: 10%;
   left: 50%;
   width: 80%;
@@ -57,146 +58,20 @@
   animation-delay: 1s;
 }
 
-.aboutContainer {
-  padding: 5% 8%;
-}
-.aboutTitle {
-  text-align: center;
-  font-size: 3em;
-  padding-bottom: 3%;
-}
-.aboutText {
-  font-size: 1.25em;
-}
-.sliderContainer {
-  text-align: center;
-}
 
-.sliderImage {
-  width: 60%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 20%;
-  position: relative;
-  margin-top: 5%;
-}
-.left-arrow {
-position: absolute;
-font-size: 2rem;
-top: 33%;
-left: 10%;
-transform: translateY(-50%);
-}
-.right-arrow {
-  position: absolute;
-  font-size: 2rem;
-top: 33%;
-right: 10%;
-transform: translateY(-50%);
-}
-
-.ProjectsContainer {
-  display: flex;
-  flex-direction: column;
-  min-height: 110vh;
-}
-.ProjectsTitle {
-  text-align: center;
-  font-size: 3rem;
-  color: #007bff;
-}
-.cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  height: 60vh;
-}
-.card {
-  cursor: pointer;
-  background-color: transparent;
-  
-  height: 40vh;
-  perspective: 1000px;
-}
-.cardP {
-  font-size: .85rem;
-}
-.card h1 {
-  font-size: 25px;
-  border-bottom: 1px #fff solid;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-.card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-.card:hover .card-inner {
-  transform: rotateY(180deg);
-}
-.card-front, 
-.card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.card-back {
-  background-color: #333;
-  color: white;
-  transform: rotateY(180deg);
-}
-.card li {
-  list-style: none;
-  padding-bottom: 10px;
-}
-
-@media (max-width: 800px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-    display: grid;
-  
-  gap: 1rem;
-  height: 100vh;
-  }
-}
-@media (max-width: 500px) {
-  .cards {
-    grid-template-columns: repeat(1, 1fr);
-    display: grid;
-    height: 120vh;
-  }
-}
-
-.footer {
-  
-  width: 100%;
-  background-color: lightgray;
-  color: black;
-  text-align: center;
-  
-}
 
 @keyframes fade-in {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
 
 @media screen and (max-width: 768px) {
-  
+
   .heroText {
     font-size: 0.7rem;
     font-weight: 700;
@@ -222,43 +97,195 @@ transform: translateY(-50%);
     font-size: 2.75rem;
     padding-top: 5%;
   }
+}
 
+/* About Section */
+.aboutContainer {
+  padding: 5% 8%;
+}
+
+.aboutTitle {
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 3%;
+}
+
+.aboutText {
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 768px) {
   .left-arrow {
     position: absolute;
     font-size: 2rem;
     top: 25%;
     left: 10%;
     transform: translateY(-50%);
-    }
+  }
 
-    .right-arrow {
-      position: absolute;
-      font-size: 2rem;
+  .right-arrow {
+    position: absolute;
+    font-size: 2rem;
     top: 25%;
     right: 10%;
     transform: translateY(-50%);
-    }
+  }
 }
-.skills-h2 {
+
+/* Image Slider */
+.sliderContainer {
+  text-align: center;
+}
+
+.sliderImage {
+  width: 60%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 20%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  font-size: 2rem;
+  top: 33%;
+  transform: translateY(-50%);
+}
+
+.left-arrow {
+  left: 10%;
+}
+
+.right-arrow {
+  right: 10%;
+}
+
+/* Projects Section */
+.ProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 110vh;
+}
+
+.ProjectsTitle {
+  text-align: center;
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  height: 60vh;
+}
+
+.card {
+  cursor: pointer;
+  background-color: transparent;
+  height: 40vh;
+  perspective: 1000px;
+}
+
+.cardP {
+  font-size: .85rem;
+}
+
+.card h1 {
+  font-size: 25px;
+  border-bottom: 1px #fff solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  background-color: #333;
   color: white;
+  transform: rotateY(180deg);
 }
-.btn-link {
-  background-color: blue;
+
+.card li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+
+    gap: 1rem;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    height: 120vh;
+  }
+}
+
+/* Resume Section */
+.resumeButton, .resumeButton-orange {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 13px;
+  font-size: 16px;
+  margin-bottom: 1%;
 }
 .resumeButton {
   background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 13px;
-    font-size: 16px;
-    margin-bottom: 1%;
 }
+.resumeButton-orange {
+  background-color: #ff9901;
+}
+
+/* Skill Section */
+.skills-h2 {
+  color: white;
+}
+
+.btn-link {
+  background-color: blue;
+}
+
 
 /* ContactForm */
 #contact {
   background-color: white;
   padding: 5% 5%;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,9 +306,6 @@ transform: translateY(-50%);
   border-bottom: 2px solid black;
 }
 
-.social-container {
-  width: 80vw !important;
-}
 /* Style for the social media buttons */
 #contact .btn-social-icon {
   background-color: #555;
@@ -326,4 +350,14 @@ transform: translateY(-50%);
   #contact .btn-link {
     font-size: 20px;
   }
+}
+
+/* Footer */
+.footer {
+
+  width: 100%;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+
 }

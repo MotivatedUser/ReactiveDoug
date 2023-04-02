@@ -1,5 +1,7 @@
 import sunset from "../images/sunset.jpeg";
 import React from 'react'
+import OrangeResumeButton from "./OrangeResumeButton";
+
 
 const HeroSection = () => {
   return (
@@ -26,8 +28,9 @@ const HeroSection = () => {
         </p>
         
         <p className="heroText heroText3" >
-        Scroll Down to Discover...
+        Scroll Down to Discover... <OrangeResumeButton />
         </p>
+        
       </div>
     </>
   );
