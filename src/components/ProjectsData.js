@@ -1,4 +1,5 @@
 export const projectsData = [
+
     {
         title: 'Portfolio Project 2',
         image: '/images/pp2-image.jpg',
@@ -20,21 +21,9 @@ export const projectsData = [
         technologies: 'React, React DOM, Font Awesome, React-Icons, Formik, Bootstrap, React-Bootstrap, Styled-Components, GitHub and GH-pages',
         learning: 'I gained experience with React hooks, dynamic data rendering, CSS styling, external libraries, event listeners, and component modularization. The project enhanced my React skills and increased my understanding of front-end development concepts.'
     }
-    // ,
-    // {
-    //     title: 'Random "Funny" Quote Machine',
-    //     image: '/images/quote-machine-image.jpg',
-    //     url: 'https://motivateduser.github.io/RandomQuoteGenerator/'
-    // },
-    // {
-    //     title: 'Random "Funny" Quote Machine',
-    //     image: '/images/quote-machine-image.jpg',
-    //     url: 'https://motivateduser.github.io/RandomQuoteGenerator/'
-    // },
-    // {
-    //     title: 'Random "Funny" Quote Machine',
-    //     image: '/images/quote-machine-image.jpg',
-    //     url: 'https://motivateduser.github.io/RandomQuoteGenerator/'
-    // }
 ]
+
+
+
+
 

@@ -1,4 +1,12 @@
-import { FaTwitterSquare, FaLinkedinIn, FaGithubSquare, FaSlack, FaDiscord, FaPhone, FaEnvelope } from "react-icons/fa";
+import {
+  FaTwitterSquare,
+  FaLinkedinIn,
+  FaGithubSquare,
+  FaSlack,
+  FaDiscord,
+  FaPhone,
+  FaEnvelope,
+} from "react-icons/fa";
 import { Container, Row, Col, Button } from "reactstrap";
 
 function ContactForm() {
@@ -22,34 +30,31 @@ function ContactForm() {
           </Col>
         </Row>
         <Row>
-        <Col className="text-center mx-auto">
-  <h5>Social</h5>
-  <Button className="btn-social-icon" href="http://twitter.com/">
-    <FaTwitterSquare />
-  </Button>
-  <Button className="btn-social-icon" href="http://linkedin.com/">
-    <FaLinkedinIn />
-  </Button>
-  <Button className="btn-social-icon" href="http://github.com/">
-    <FaGithubSquare />
-  </Button>
-  <Button className="btn-social-icon" href="http://slack.com/">
-    <FaSlack />
-  </Button>
-  <Button className="btn-social-icon" href="http://discord.com/">
-    <FaDiscord />
-  </Button>
-</Col>
-
-          </Row>
-          
+          <Col className="text-center mx-auto">
+            <h5>Social</h5>
+            <Button className="btn-social-icon" href="http://twitter.com/">
+              <FaTwitterSquare />
+            </Button>
+            <Button className="btn-social-icon" href="http://linkedin.com/">
+              <FaLinkedinIn />
+            </Button>
+            <Button className="btn-social-icon" href="http://github.com/">
+              <FaGithubSquare />
+            </Button>
+            <Button className="btn-social-icon" href="http://slack.com/">
+              <FaSlack />
+            </Button>
+            <Button className="btn-social-icon" href="http://discord.com/">
+              <FaDiscord />
+            </Button>
+          </Col>
+        </Row>
       </Container>
     </section>
   );
 }
 
 export default ContactForm;
-
 
 // import React from "react";
 // import { useForm } from "react-hook-form";
@@ -159,4 +164,3 @@ export default ContactForm;
 // };
 
 // export default ContactForm;
-
