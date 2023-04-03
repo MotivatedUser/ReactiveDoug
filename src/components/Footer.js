@@ -5,7 +5,6 @@ import {
   FaEnvelope,
   FaTwitterSquare,
   FaGithubSquare,
-  FaSlack,
   FaDiscord,
 } from "react-icons/fa";
 import { FcPhone } from "react-icons/fc";
@@ -15,8 +14,8 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col xs={{ size: 4, offset: 1 }} sm="2">
-            <h5>Links</h5>
+          <Col  sm="4" className="text-center">
+            <h5><strong>Links</strong></h5>
             <ul className="list-unstyled">
               <li>
                 <Link to="/">Home</Link>
@@ -38,44 +37,45 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col xs="6" sm="3" className="text-center">
-            <h5>Social</h5>
+          <Col sm="4" className="text-center">
+            <h5 className="footer-h5" ><strong>Social</strong></h5>
             <a
               className="btn btn-social-icon"
               href="https://github.com/MotivatedUser"
             >
-              <FaGithubSquare />
+              <FaGithubSquare className="footer-icon" />
             </a>
             <a
               className="btn btn-social-icon"
               href="https://www.linkedin.com/in/d-altermatt-motivated-user"
             >
-              <FaLinkedinIn />
+              <FaLinkedinIn className="footer-icon blue" />
             </a>
             <a
               className="btn btn-social-icon"
               href="https://twitter.com/altermatt_d"
             >
-              <FaTwitterSquare />
+              <FaTwitterSquare className="footer-icon blue" />
             </a>
             <a
               className="btn btn-social-icon"
               href="https://discordapp.com/users/1034946698860052530"
             >
-              <FaDiscord />
+              <FaDiscord className="footer-icon" />
             </a>
           </Col>
           <Col sm="4" className="text-center">
-            <a role="button" className="btn btn-link" href="tel:+15094815800">
-              <FcPhone /> 1-509-481-5800
+            <h5 className="footer-h5"><strong>Contact</strong></h5>
+            <a role="button" className="btn btn-link footer-link" href="tel:+15094815800">
+              <FcPhone className="" /> 1-509-481-5800
             </a>
             <br />
             <a
               role="button"
-              className="btn btn-link"
+              className="btn btn-link footer-link"
               href="mailto:carbfixer@gmail.com"
             >
-              <FaEnvelope /> carbfixer@Gmail.com
+              <FaEnvelope className="" /> carbfixer@Gmail.com
             </a>
           </Col>
         </Row>
