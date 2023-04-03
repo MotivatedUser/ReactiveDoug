@@ -2,7 +2,6 @@ import {
   FaTwitterSquare,
   FaLinkedinIn,
   FaGithubSquare,
-  FaSlack,
   FaDiscord,
   FaPhone,
   FaEnvelope,
@@ -32,19 +31,16 @@ function ContactForm() {
         <Row>
           <Col className="text-center mx-auto">
             <h5>Social</h5>
-            <Button className="btn-social-icon" href="http://twitter.com/">
-              <FaTwitterSquare />
-            </Button>
-            <Button className="btn-social-icon" href="http://linkedin.com/">
-              <FaLinkedinIn />
-            </Button>
-            <Button className="btn-social-icon" href="http://github.com/">
+            <Button className="btn-social-icon" href="https://github.com/MotivatedUser">
               <FaGithubSquare />
             </Button>
-            <Button className="btn-social-icon" href="http://slack.com/">
-              <FaSlack />
+            <Button className="btn-social-icon" href="https://www.linkedin.com/in/d-altermatt-motivated-user/">
+              <FaLinkedinIn />
             </Button>
-            <Button className="btn-social-icon" href="http://discord.com/">
+            <Button className="btn-social-icon" href="https://twitter.com/altermatt_d/">
+              <FaTwitterSquare />
+            </Button>
+            <Button className="btn-social-icon" href="https://discordapp.com/users/1034946698860052530">
               <FaDiscord />
             </Button>
           </Col>

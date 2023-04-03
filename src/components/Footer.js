@@ -40,19 +40,28 @@ const Footer = () => {
           </Col>
           <Col xs="6" sm="3" className="text-center">
             <h5>Social</h5>
-            <a className="btn btn-social-icon" href="http://twitter.com/">
-              <FaTwitterSquare />
-            </a>{" "}
-            <a className="btn btn-social-icon" href="http://linkedin.com/">
-              <FaLinkedinIn />
-            </a>{" "}
-            <a className="btn btn-social-icon" href="http://github.com/">
+            <a
+              className="btn btn-social-icon"
+              href="https://github.com/MotivatedUser"
+            >
               <FaGithubSquare />
             </a>
-            <a className="btn btn-social-icon" href="http://slack.com/">
-              <FaSlack />
+            <a
+              className="btn btn-social-icon"
+              href="https://www.linkedin.com/in/d-altermatt-motivated-user"
+            >
+              <FaLinkedinIn />
             </a>
-            <a className="btn btn-social-icon" href="http://discord.com/">
+            <a
+              className="btn btn-social-icon"
+              href="https://twitter.com/altermatt_d"
+            >
+              <FaTwitterSquare />
+            </a>
+            <a
+              className="btn btn-social-icon"
+              href="https://discordapp.com/users/1034946698860052530"
+            >
               <FaDiscord />
             </a>
           </Col>
