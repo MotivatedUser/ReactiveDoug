@@ -363,14 +363,18 @@
 }
 .footer-icon {
   font-size: 3rem;
+  color: #555;
+  border-radius: 20%;
 }
 .footer-icon:hover {
+  background-color: #007bff;
+  color: white;
   font-size: 3.5rem;
-  transform: translateY(-20px);
+  transform: translateY(-5px);
   
 }
 .footer-link:hover {
-  font-size: 1.25rem;
+  transform: translateY(-5px);
 }
 .footer-h5 {
   padding-bottom: 10%;

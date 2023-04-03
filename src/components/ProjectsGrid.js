@@ -14,7 +14,7 @@ function ProjectsGrid() {
       const someProjects = projectsData.slice(0, 12);
       setProjects(someProjects);
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
 
   const filteredProjects = projects.filter(project =>

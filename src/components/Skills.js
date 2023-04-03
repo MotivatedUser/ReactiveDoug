@@ -34,8 +34,8 @@ const Skills = () => {
   <table className='table table-striped' >
     <thead>
     <tr>
-        <th>Skill</th>
-        <th>Proficiency</th>
+        <th><strong>Skill</strong></th>
+        <th><strong>Proficiency</strong></th>
       </tr>
     </thead>
     <tbody>
