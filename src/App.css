@@ -257,18 +257,27 @@
 }
 
 /* Resume Section */
-.resumeButton, .resumeButton-orange {
+.resumeButton,
+.resumeButton-orange {
   color: #fff;
   padding: 10px 20px;
   border-radius: 13px;
   font-size: 16px;
   margin-bottom: 1%;
 }
+
 .resumeButton {
   background-color: #007bff;
 }
+
 .resumeButton-orange {
   background-color: #ff9901;
+  color: black;
+}
+
+.orange-background {
+  background: rgb(253, 117, 53);
+  background: linear-gradient(135deg, rgba(253, 117, 53, 1) 0%, rgba(253, 138, 59, 1) 20%, rgba(253, 179, 62, 1) 40%, rgba(253, 221, 64, 1) 60%, rgba(247, 224, 19, 1) 80%, rgba(252, 176, 69, 1) 100%);
 }
 
 /* Skill Section */
@@ -361,24 +370,29 @@
   text-align: center;
 
 }
+
 .footer-icon {
   font-size: 3rem;
   color: #555;
   border-radius: 20%;
 }
+
 .footer-icon:hover {
   background-color: #007bff;
   color: white;
   font-size: 3.5rem;
   transform: translateY(-5px);
-  
+
 }
+
 .footer-link:hover {
   transform: translateY(-5px);
 }
+
 .footer-h5 {
   padding-bottom: 10%;
 }
+
 .blue {
   color: #007bff;
 }

@@ -1,15 +1,14 @@
-import React from 'react'
-import Header from '../components/Header'
-import HeroSection from '../components/HeroSection'
+import React from "react";
+import OrangeHeader from "../components/OrangeHeader";
+import HeroSection from "../components/HeroSection";
 
 const HomePage = () => {
   return (
     <>
-    <HeroSection />
-    <Header />
+      <HeroSection />
+      <OrangeHeader />
     </>
-    
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

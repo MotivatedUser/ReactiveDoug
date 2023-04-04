@@ -10,13 +10,12 @@ import {
 import { NavLink } from 'react-router-dom';
 import { FcAbout, FcAssistant, FcBinoculars, FcBullish, FcBusinessman, FcHome } from "react-icons/fc";
 
-const Header = (props) => {
-    const { style } = props;
+const OrangeHeader = () => {
     const[menuOpen, setMenuOpen] = useState(false);
 
     return (
         <>
-        <Navbar style={style} dark color='primary' sticky='top' expand='md'>
+        <Navbar className='orange-background' expand='md' >
             <NavbarBrand className='ms-5' href='/'>
                 {/* <img src={} alt='logo' className='float-start' /> */}
                 <h1 className='mt-1'>Doug's Portfolio</h1>
@@ -61,4 +60,4 @@ const Header = (props) => {
     );
 }
 
-export default Header
+export default OrangeHeader
