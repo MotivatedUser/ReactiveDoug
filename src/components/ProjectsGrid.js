@@ -9,7 +9,7 @@ function ProjectsGrid() {
   const [query, setQuery] = useState("")
 
   useEffect(() => {
-    // Simulate loading time
+    // Simulate loading time and only allows 12 results to show at 1 time.
     setTimeout(() => {
       const someProjects = projectsData.slice(0, 12);
       setProjects(someProjects);

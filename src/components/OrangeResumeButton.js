@@ -2,7 +2,7 @@ import React from 'react';
 
 function OrangeResumeButton() {
   const downloadResume = () => {
-    const url = '/pdfs/Doug_Altermatt_Resume_2023.pdf';
+    const url = process.env.PUBLIC_URL + '/pdfs/Doug_Altermatt_Resume_2023.pdf';
     const link = document.createElement('a');
     link.href = url;
     link.setAttribute('download', 'Doug_Altermatt_Resume_2023.pdf');

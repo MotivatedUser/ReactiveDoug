@@ -8,7 +8,7 @@ const ProjectItem = ({ project }) => {
           <img src={project.image} alt={project.title} />
         </div>
         <div className='card-back'>
-          <h1>{project.title}</h1>
+          <h1>Project: {project.title}</h1>
           <ul>
             <li>
               <strong>URL:</strong> <a href={project.url}>{project.url}</a>
