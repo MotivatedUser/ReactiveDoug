@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactiveDoug/static/css/main.4745dea2.css",
-    "main.js": "/ReactiveDoug/static/js/main.37016f5c.js",
+    "main.css": "/ReactiveDoug/static/css/main.e3e0c086.css",
+    "main.js": "/ReactiveDoug/static/js/main.4fc82b72.js",
     "static/js/787.b198c249.chunk.js": "/ReactiveDoug/static/js/787.b198c249.chunk.js",
     "static/media/sunset.jpeg": "/ReactiveDoug/static/media/sunset.35228df89a90ee93f6bd.jpeg",
     "index.html": "/ReactiveDoug/index.html",
-    "main.4745dea2.css.map": "/ReactiveDoug/static/css/main.4745dea2.css.map",
-    "main.37016f5c.js.map": "/ReactiveDoug/static/js/main.37016f5c.js.map",
+    "main.e3e0c086.css.map": "/ReactiveDoug/static/css/main.e3e0c086.css.map",
+    "main.4fc82b72.js.map": "/ReactiveDoug/static/js/main.4fc82b72.js.map",
     "787.b198c249.chunk.js.map": "/ReactiveDoug/static/js/787.b198c249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4745dea2.css",
-    "static/js/main.37016f5c.js"
+    "static/css/main.e3e0c086.css",
+    "static/js/main.4fc82b72.js"
   ]
 }
