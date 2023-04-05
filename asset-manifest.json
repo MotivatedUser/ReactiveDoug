@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactive-doug/static/css/main.f69ab616.css",
+    "main.js": "/reactive-doug/static/js/main.dad35efb.js",
+    "static/js/787.b198c249.chunk.js": "/reactive-doug/static/js/787.b198c249.chunk.js",
+    "static/media/sunset.jpeg": "/reactive-doug/static/media/sunset.35228df89a90ee93f6bd.jpeg",
+    "index.html": "/reactive-doug/index.html",
+    "main.f69ab616.css.map": "/reactive-doug/static/css/main.f69ab616.css.map",
+    "main.dad35efb.js.map": "/reactive-doug/static/js/main.dad35efb.js.map",
+    "787.b198c249.chunk.js.map": "/reactive-doug/static/js/787.b198c249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69ab616.css",
+    "static/js/main.dad35efb.js"
+  ]
+}
