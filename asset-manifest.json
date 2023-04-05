@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ReactiveDoug/static/css/main.f69ab616.css",
-    "main.js": "/ReactiveDoug/static/js/main.601f0bc9.js",
+    "main.js": "/ReactiveDoug/static/js/main.02bb16c8.js",
     "static/js/787.b198c249.chunk.js": "/ReactiveDoug/static/js/787.b198c249.chunk.js",
     "static/media/sunset.jpeg": "/ReactiveDoug/static/media/sunset.35228df89a90ee93f6bd.jpeg",
     "index.html": "/ReactiveDoug/index.html",
     "main.f69ab616.css.map": "/ReactiveDoug/static/css/main.f69ab616.css.map",
-    "main.601f0bc9.js.map": "/ReactiveDoug/static/js/main.601f0bc9.js.map",
+    "main.02bb16c8.js.map": "/ReactiveDoug/static/js/main.02bb16c8.js.map",
     "787.b198c249.chunk.js.map": "/ReactiveDoug/static/js/787.b198c249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f69ab616.css",
-    "static/js/main.601f0bc9.js"
+    "static/js/main.02bb16c8.js"
   ]
 }
