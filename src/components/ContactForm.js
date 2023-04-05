@@ -18,12 +18,12 @@ function ContactForm() {
           </Col>
         </Row>
         <Row>
-          <Col sm="4" className="text-center">
-            <Button className="btn-link" href="tel:+15094815800">
+          <Col className="text-center">
+            <Button className="btn-link mx-auto" href="tel:+15094815800">
               <FaPhone /> 1-509-481-5800
             </Button>
             <br />
-            <Button className="btn-link" href="mailto:carbfixer@gmail.com">
+            <Button className="btn-link mx-auto" href="mailto:carbfixer@gmail.com">
               <FaEnvelope /> carbfixer@gmail.com
             </Button>
           </Col>

@@ -343,13 +343,22 @@
 }
 
 /* Style for the phone and email links */
+#contact .btn-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the phone and email links */
 #contact .btn-link {
   color: #007bff;
   font-size: 2rem;
-  width: 80vw;
+  padding: 10px 20px;
   margin-top: 20px;
   text-align: center;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 /* Hover state for phone and email links */
