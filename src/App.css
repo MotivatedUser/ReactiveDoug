@@ -114,23 +114,7 @@
   font-size: 1.25em;
 }
 
-@media screen and (max-width: 768px) {
-  .left-arrow {
-    position: absolute;
-    font-size: 2rem;
-    top: 25%;
-    left: 10%;
-    transform: translateY(-50%);
-  }
 
-  .right-arrow {
-    position: absolute;
-    font-size: 2rem;
-    top: 25%;
-    right: 10%;
-    transform: translateY(-50%);
-  }
-}
 
 /* Image Slider */
 .sliderContainer {
@@ -161,7 +145,23 @@
 .right-arrow {
   right: 10%;
 }
+@media screen and (max-width: 768px) {
+  .left-arrow {
+    position: absolute;
+    font-size: 2rem;
+    top: 25%;
+    left: 10%;
+    transform: translateY(-50%);
+  }
 
+  .right-arrow {
+    position: absolute;
+    font-size: 2rem;
+    top: 25%;
+    right: 10%;
+    transform: translateY(-50%);
+  }
+}
 /* Projects Section */
 .ProjectsContainer {
   display: flex;
@@ -248,13 +248,21 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .cards {
     grid-template-columns: repeat(1, 1fr);
     display: grid;
     height: 120vh;
   }
 }
+@media (max-width: 400px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    height: 180vh;
+  }
+}
+
 
 /* Resume Section */
 .resumeButton,
