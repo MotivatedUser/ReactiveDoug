@@ -26,21 +26,21 @@
 }
 
 .heroText1 {
-  top: 62%;
+  top: 55%;
   left: 67%;
   width: 60%;
   animation-delay: 4s;
 }
 
 .heroText2 {
-  top: 79%;
+  top: 72%;
   left: 67%;
   width: 60%;
   animation-delay: 5s;
 }
 
 .heroText3 {
-  top: 90%;
+  top: 85%;
   left: 67%;
   width: 60%;
   animation-delay: 6s;
@@ -72,31 +72,70 @@
 
 @media screen and (max-width: 768px) {
 
+  .heroTitle {
+    font-size: 2.75rem;
+    padding-top: 5%;
+  }
+  
   .heroText {
     font-size: 0.7rem;
     font-weight: 700;
-    top: 60%;
+    top: 54%;
     animation-delay: 3s;
   }
 
   .heroText2 {
     font-size: 0.7rem;
     font-weight: 700;
-    top: 80%;
+    top: 63%;
     animation-delay: 6s;
   }
 
   .heroText3 {
     font-size: 0.7rem;
     font-weight: 700;
-    top: 90%;
+    top: 72%;
     animation-delay: 8s;
   }
 
-  .heroTitle {
-    font-size: 2.75rem;
-    padding-top: 5%;
+  
+}
+@media screen and (max-width: 500px) {
+
+  .heroText {
+    top: 54%;
   }
+
+  .heroText2 {
+    top: 67%;
+  }
+
+  .heroText3 {
+    top: 78%;
+  }
+}
+@media screen and (max-width: 300px) {
+
+  .heroText {
+    top: 42%;
+  }
+
+  .heroText2 {
+    top: 62%;
+  }
+
+  .heroText3 {
+    top: 78%;
+  }
+}
+
+.orange-background {
+  position: fixed !important;
+  bottom: 0%;
+  width: 100%;
+  
+  background: rgb(253, 117, 53);
+  background: linear-gradient(135deg, rgba(253, 117, 53, 1) 0%, rgba(253, 138, 59, 1) 20%, rgba(253, 179, 62, 1) 40%, rgba(253, 221, 64, 1) 60%, rgba(247, 224, 19, 1) 80%, rgba(252, 176, 69, 1) 100%);
 }
 
 /* About Section */
@@ -281,11 +320,6 @@
 .resumeButton-orange {
   background-color: #ff9901;
   color: black;
-}
-
-.orange-background {
-  background: rgb(253, 117, 53);
-  background: linear-gradient(135deg, rgba(253, 117, 53, 1) 0%, rgba(253, 138, 59, 1) 20%, rgba(253, 179, 62, 1) 40%, rgba(253, 221, 64, 1) 60%, rgba(247, 224, 19, 1) 80%, rgba(252, 176, 69, 1) 100%);
 }
 
 /* Skill Section */

@@ -1,6 +1,7 @@
 import sunset from "../images/sunset.jpeg";
 import React from 'react'
 import OrangeResumeButton from "./OrangeResumeButton";
+import OrangeHeader from "./OrangeHeader";
 
 
 const HeroSection = () => {
@@ -14,6 +15,7 @@ const HeroSection = () => {
       <div>
         <h5 className="heroTitle">Hello, I'm Doug Altermatt</h5>
       </div>
+      
       <div>
         <p className="heroText heroText1">
           As a React developer, I bring a passion for creating engaging and
@@ -28,7 +30,7 @@ const HeroSection = () => {
         </p>
         
         <p className="heroText heroText3" >
-        Scroll Down to Discover... <OrangeResumeButton />
+        <OrangeResumeButton />
         </p>
         
       </div>

@@ -17,7 +17,6 @@ const OrangeHeader = () => {
         <>
         <Navbar className='orange-background' expand='md' >
             <NavbarBrand className='ms-5' href='/'>
-                {/* <img src={} alt='logo' className='float-start' /> */}
                 <h1 className='mt-1'>Doug's Portfolio</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
