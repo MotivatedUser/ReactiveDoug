@@ -76,16 +76,16 @@
     font-size: 2.75rem;
     padding-top: 5%;
   }
-  
+
   .heroText {
-    font-size: 0.7rem;
+    font-size: 12px;
     font-weight: 700;
     top: 54%;
     animation-delay: 3s;
   }
 
   .heroText2 {
-    font-size: 0.7rem;
+    font-size: 12px;
     font-weight: 700;
     top: 63%;
     animation-delay: 6s;
@@ -98,8 +98,9 @@
     animation-delay: 8s;
   }
 
-  
+
 }
+
 @media screen and (max-width: 500px) {
 
   .heroText {
@@ -114,6 +115,7 @@
     top: 78%;
   }
 }
+
 @media screen and (max-width: 300px) {
 
   .heroText {
@@ -133,7 +135,7 @@
   position: fixed !important;
   bottom: 0%;
   width: 100%;
-  
+
   background: rgb(253, 117, 53);
   background: linear-gradient(135deg, rgba(253, 117, 53, 1) 0%, rgba(253, 138, 59, 1) 20%, rgba(253, 179, 62, 1) 40%, rgba(253, 221, 64, 1) 60%, rgba(247, 224, 19, 1) 80%, rgba(252, 176, 69, 1) 100%);
 }
@@ -184,6 +186,7 @@
 .right-arrow {
   right: 10%;
 }
+
 @media screen and (max-width: 768px) {
   .left-arrow {
     position: absolute;
@@ -201,6 +204,7 @@
     transform: translateY(-50%);
   }
 }
+
 /* Projects Section */
 .ProjectsContainer {
   display: flex;
@@ -294,6 +298,7 @@
     height: 120vh;
   }
 }
+
 @media (max-width: 400px) {
   .cards {
     grid-template-columns: repeat(1, 1fr);
