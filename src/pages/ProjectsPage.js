@@ -7,12 +7,16 @@ const ProjectsPage = () => {
   
 
   return (
+    <>
+    <Header />
     <div className='ProjectsContainer'>
-      <Header />
+      
       <h3 className='ProjectsTitle'>Welcome to Doug's Project Page</h3>
       <ProjectsGrid />
-      <Footer />
+      
     </div>
+<Footer />
+</>
   );
 };
 

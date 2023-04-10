@@ -21,6 +21,14 @@ export const projectsData = [
         technologies: 'React, React DOM, Font Awesome, React-Icons, Formik, Bootstrap, React-Bootstrap, Styled-Components, GitHub and GH-pages',
         learning: 'I gained experience with React hooks, dynamic data rendering, CSS styling, external libraries, event listeners, and component modularization. The project enhanced my React skills and increased my understanding of front-end development concepts.'
     }
+    ,
+    {
+        title: 'React-menu-app',
+        image: process.env.PUBLIC_URL + '/images/react-menu-app-image.jpg',
+        url: 'https://motivateduser.github.io/react-menu-app/',
+        technologies: 'React, React-DOM, Axios, React-Icons, React-Scripts, Reactstrap, React-Router-DOM, Redux, React-Redux, React-Hook-Form, Bootstrap, CSS, GitHub, and GH-Pages.',
+        learning: 'During this project, I gained experience using Axios for fetching data and managing API requests with async and await, as well as implementing navigation between pages using React-Router-DOM. I employed Redux for state management and leveraged React-Hook-Form for form handling and validation. The application utilizes Bootstrap and Reactstrap for responsive design and styling.'
+    }
 ]
 
 
