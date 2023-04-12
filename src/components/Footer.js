@@ -73,9 +73,9 @@ const Footer = () => {
             <a
               role="button"
               className="btn btn-link footer-link"
-              href="mailto:carbfixer@gmail.com"
+              href="mailto:reactivedoug@gmail.com"
             >
-              <FaEnvelope className="" /> carbfixer@Gmail.com
+              <FaEnvelope className="" /> reactivedoug@gmail.com
             </a>
           </Col>
         </Row>

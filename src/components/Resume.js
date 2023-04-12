@@ -11,9 +11,9 @@ function Resume() {
                 <a
                     role='button'
                     className='btn btn-link'
-                    href='mailto:carbfixer@gmail.com'
+                    href='mailto:reactivedoug@gmail.com'
                 >
-                    <i className='fa fa-envelope-o' /> Carbfixer@gmail.com
+                    <i className='fa fa-envelope-o' /> reactivedoug@gmail.com
                 </a> |
                 <a
                     role='button'

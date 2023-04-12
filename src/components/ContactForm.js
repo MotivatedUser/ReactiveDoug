@@ -23,8 +23,8 @@ function ContactForm() {
               <FaPhone /> 1-509-481-5800
             </Button>
             <br />
-            <Button className="btn-link mx-auto" href="mailto:carbfixer@gmail.com">
-              <FaEnvelope /> carbfixer@gmail.com
+            <Button className="btn-link mx-auto" href="mailto:reactivedoug@gmail.com">
+              <FaEnvelope /> reactivedoug@gmail.com
             </Button>
           </Col>
         </Row>
