@@ -1,12 +1,12 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
 import Resume from '../components/Resume'
+import OrangeHeader from '../components/OrangeHeader'
 
 const ResumePage = () => {
   return (
     <>
-    <Header />
+    <OrangeHeader />
     <Resume />
     <Footer />
     </>

@@ -132,13 +132,23 @@
 }
 
 .orange-background {
-  position: fixed !important;
+  position: fixed;
   bottom: 0%;
   width: 100%;
 
   background: rgb(253, 117, 53);
   background: linear-gradient(135deg, rgba(253, 117, 53, 1) 0%, rgba(253, 138, 59, 1) 20%, rgba(253, 179, 62, 1) 40%, rgba(253, 221, 64, 1) 60%, rgba(247, 224, 19, 1) 80%, rgba(252, 176, 69, 1) 100%);
 }
+
+.orange-background.home-page {
+  position: fixed !important;
+  bottom: 0;
+}
+
+.orange-background:not(.home-page) {
+  top: 0;
+}
+
 
 /* About Section */
 .aboutPage {
@@ -238,7 +248,7 @@
 .ProjectsTitle {
   text-align: center;
   font-size: 3rem;
-  color: #007bff;
+  color: rgb(253, 117, 53);
 }
 
 .cards {
@@ -394,7 +404,7 @@
 
 /* Hover state for social media buttons */
 #contact .btn-social-icon:hover {
-  background-color: #007bff;
+  background-color: rgb(253, 117, 53);
   color: #fff;
   transform: translateY(-5px);
 }
@@ -420,7 +430,7 @@
 
 /* Hover state for phone and email links */
 #contact .btn-link:hover {
-  color: white;
+  color: rgb(253, 117, 53);
   transform: translateY(-5px);
 }
 

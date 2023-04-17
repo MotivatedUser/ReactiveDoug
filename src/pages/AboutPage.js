@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import AutoImageSlider from '../components/ImageSlider'
-import Header from "../components/Header";
+import OrangeHeader from '../components/OrangeHeader'
 import Footer from "../components/Footer";
 import { SliderData } from "../components/SliderData";
 
@@ -23,7 +23,7 @@ const AboutPage = () => {
 
   return (
     <>
-      <Header />
+      <OrangeHeader />
       <div className="aboutPage" >
       <AutoImageSlider slides={SliderData} />
       </div>

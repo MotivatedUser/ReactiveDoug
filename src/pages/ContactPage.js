@@ -1,11 +1,11 @@
 import React from 'react'
 import ContactForm from '../components/ContactForm'
-import Header from '../components/Header'
+import OrangeHeader from '../components/OrangeHeader'
 
 const ContactPage = () => {
   return (
     <>
-    <Header />
+    <OrangeHeader />
     <ContactForm />
     
     </>
