@@ -308,6 +308,7 @@
   background-color: #333;
   color: white;
   transform: rotateY(180deg);
+  padding-right: 5%;
 }
 
 .card li {
@@ -344,6 +345,10 @@
 
 .orange {
   color: rgb(253, 117, 53);
+}
+
+.tableTitle {
+  font-size: 1.1rem;
 }
 
 .resumeButton,
