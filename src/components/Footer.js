@@ -18,22 +18,22 @@ const Footer = () => {
             <h5><strong>Links</strong></h5>
             <ul className="list-unstyled">
               <li>
-                <Link to="/">Home</Link>
+                <Link className="blue" to="/">Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link className="blue" to="/about">About</Link>
               </li>
               <li>
-                <Link to="/projects">Projects</Link>
+                <Link className="blue" to="/projects">Projects</Link>
               </li>
               <li>
-                <Link to="/resume">Resume</Link>
+                <Link className="blue" to="/resume">Resume</Link>
               </li>
               <li>
-                <Link to="/skills">Skills</Link>
+                <Link className="blue" to="/skills">Skills</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link className="blue" to="/contact">Contact</Link>
               </li>
             </ul>
           </Col>
@@ -67,7 +67,7 @@ const Footer = () => {
           <Col sm="4" className="text-center">
             <h5 className="footer-h5"><strong>Contact</strong></h5>
             <a role="button" className="btn btn-link footer-link" href="tel:+15094815800">
-              <FcPhone className="" /> 1-509-481-5800
+              <FcPhone className="blue" /> 1-509-481-5800
             </a>
             <br />
             <a
@@ -75,7 +75,7 @@ const Footer = () => {
               className="btn btn-link footer-link"
               href="mailto:reactivedoug@gmail.com"
             >
-              <FaEnvelope className="" /> reactivedoug@gmail.com
+              <FaEnvelope className="blue" /> reactivedoug@gmail.com
             </a>
           </Col>
         </Row>

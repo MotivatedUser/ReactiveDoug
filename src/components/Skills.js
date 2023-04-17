@@ -39,7 +39,7 @@ const Skills = () => {
       </tr>
     </thead>
     <tbody>
-      <tr className="bg-primary text-light">
+      <tr className="orange-bg text-light">
         <td>
           <h2 className='skills-h2'>Technical Skills</h2>
         </td>
@@ -58,7 +58,7 @@ const Skills = () => {
           </td>
         </tr>
       ))}
-      <tr className="bg-primary text-light">
+      <tr className="orange-bg text-light">
         <td>
           <h2 className='skills-h2'>Soft Skills</h2>
         </td>
@@ -76,7 +76,7 @@ const Skills = () => {
           </td>
         </tr>
       ))}
-      <tr className="bg-primary text-light">
+      <tr className="orange-bg text-light">
         <td>
           <h2 className='skills-h2'>Tools</h2>
         </td>

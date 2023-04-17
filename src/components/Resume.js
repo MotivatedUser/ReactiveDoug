@@ -1,5 +1,5 @@
 import React from 'react';
-import DownloadResumeButton from './DownloadResumeButton';
+import OrangeResumeButton from './OrangeResumeButton';
 import './Resume.css';
 
 function Resume() {
@@ -38,7 +38,7 @@ function Resume() {
                     <i className='fa fa-location-arrow' />
                     Newman Lake, WA 99025
                 </a>  
-                <DownloadResumeButton />
+                <OrangeResumeButton />
 
                 
                 <br />
@@ -50,7 +50,7 @@ function Resume() {
                     <table className="table table-striped">
                         <thead>
                             <tr className="bg-primary text-light">
-                                <th><h2 className='tableTitle textColorAnimation'>FRONT END DEVELOPER PROFILE</h2></th>
+                                <th className='orange-bg' ><h2 className='tableTitle textColorAnimation'>FRONT END DEVELOPER PROFILE</h2></th>
 
                             </tr>
                         </thead>
@@ -80,8 +80,8 @@ function Resume() {
                     <table className="table table-striped">
                         <thead>
                             <tr className="bg-primary text-light">
-                                <th><h2 className='tableTitle textColorAnimation'>TECHNICAL PROFICIENCIES</h2></th>
-                                <th></th>
+                                <th className='orange-bg'><h2 className='tableTitle textColorAnimation'>TECHNICAL PROFICIENCIES</h2></th>
+                                <th className='orange-bg'></th>
                             </tr>
                         </thead>
                         <tbody className="table-primary">
@@ -107,8 +107,8 @@ function Resume() {
                     <table className="table table-striped">
                         <thead>
                             <tr className="bg-primary text-light">
-                                <th><h2 className='tableTitle textColorAnimation'>EDUCATION</h2></th>
-                                <th></th>
+                                <th className='orange-bg'><h2 className='tableTitle textColorAnimation'>EDUCATION</h2></th>
+                                <th className='orange-bg'></th>
                             </tr>
                         </thead>
                         <tbody className="table-primary">
@@ -139,9 +139,9 @@ function Resume() {
                     <table className="table table-striped">
                         <thead>
                             <tr className="bg-primary text-light">
-                                <th><h2 className='tableTitle textColorAnimation'>PROFESSIONAL EXPERIENCE</h2></th>
-                                <th></th>
-                                <th></th>
+                                <th className='orange-bg'><h2 className='tableTitle textColorAnimation'>PROFESSIONAL EXPERIENCE</h2></th>
+                                <th className='orange-bg'></th>
+                                <th className='orange-bg'></th>
                             </tr>
                         </thead>
                         <tbody className="table-primary">

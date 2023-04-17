@@ -158,7 +158,8 @@
 }
 
 .aboutContainer {
-  padding: 45% 5%;
+  padding-top: 45%;
+  padding: 47% 4% 0 4%;
 }
 
 .aboutTitle {
@@ -337,6 +338,10 @@
 }
 
 /* Resume Section */
+.orange-bg {
+  background-color: rgb(253, 117, 53);
+}
+
 .resumeButton,
 .resumeButton-orange {
   color: #fff;
@@ -361,7 +366,7 @@
 }
 
 .btn-link {
-  background-color: blue;
+  color: rgb(253, 117, 53);
 }
 
 
@@ -419,7 +424,7 @@
 
 /* Style for the phone and email links */
 #contact .btn-link {
-  color: #007bff;
+  color: rgb(253, 117, 53);
   font-size: 2rem;
   padding: 10px 20px;
   margin-top: 20px;
@@ -462,11 +467,19 @@
 }
 
 .footer-icon:hover {
-  background-color: #007bff;
+  background-color: rgb(253, 117, 53);
   color: white;
   font-size: 3.5rem;
   transform: translateY(-5px);
 
+}
+
+.footer .footer-link {
+  color: rgb(253, 117, 53);
+}
+
+.footer .footer-link .blue {
+  color: rgb(253, 117, 53);
 }
 
 .footer-link:hover {
@@ -478,5 +491,5 @@
 }
 
 .blue {
-  color: #007bff;
+  color: rgb(253, 117, 53);
 }

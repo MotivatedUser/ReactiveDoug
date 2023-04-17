@@ -22,6 +22,10 @@
   .resume-Header {
     text-align: center;
   }
+
+  table.table th.orange-bg {
+    background-color: rgb(253, 117, 53);
+  }
   
   /* Media queries */
   @media screen and (max-width: 768px) {
