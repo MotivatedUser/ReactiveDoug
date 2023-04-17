@@ -141,8 +141,14 @@
 }
 
 /* About Section */
+.aboutPage {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  align-items: center;
+}
+
 .aboutContainer {
-  padding: 5% 8%;
+  padding: 45% 5%;
 }
 
 .aboutTitle {
@@ -160,6 +166,9 @@
 /* Image Slider */
 .sliderContainer {
   text-align: center;
+  position: relative;
+  height: 60%;
+  max-height: 600px;
 }
 
 .sliderImage {
@@ -169,6 +178,20 @@
   border-radius: 20%;
   position: relative;
   margin-top: 5%;
+}
+
+.slide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.slide.active {
+  opacity: 1;
 }
 
 .left-arrow,

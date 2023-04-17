@@ -24,7 +24,9 @@ const AboutPage = () => {
   return (
     <>
       <Header />
+      <div className="aboutPage" >
       <AutoImageSlider slides={SliderData} />
+      </div>
       <div className="aboutContainer">
         <h2 className="aboutTitle">About Me</h2>
         
@@ -59,6 +61,7 @@ const AboutPage = () => {
           exceptional!
         </p>
       </div>
+      
       <Footer />
     </>
   );

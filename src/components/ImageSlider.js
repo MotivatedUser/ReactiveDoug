@@ -1,17 +1,29 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { SliderData } from './SliderData';
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+
+const usePreloadImages = (images) => {
+  useEffect(() => {
+    images.forEach((image) => {
+      const img = new Image();
+      img.src = image.image;
+    });
+  }, [images]);
+};
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
+  usePreloadImages(SliderData);
+
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrent(current === length - 1 ? 0 : current + 1);
+      setCurrent((prevCurrent) => (prevCurrent === length - 1 ? 0 : prevCurrent + 1));
     }, 3000);
+  
     return () => clearInterval(interval);
-  }, [current, length]);
+  }, [length]);
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -32,14 +44,12 @@ const ImageSlider = ({ slides }) => {
       {SliderData.map((slide, index) => {
         return (
           <div className='sliderContainer' key={index}>
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
+            <div
+              className={index === current ? 'slide active' : 'slide'}
+              key={index}
+            >
               <img src={slide.image} alt='travel' className='sliderImage' />
-            )}
-          </div>
+            </div>
           </div>
         );
       })}
