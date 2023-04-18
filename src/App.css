@@ -352,6 +352,7 @@
 /* Resume Section */
 .orange-bg {
   background-color: rgb(253, 117, 53);
+  color: black;
 }
 
 .orange {
@@ -382,7 +383,7 @@
 
 /* Skill Section */
 .skills-h2 {
-  color: white;
+  color: black;
 }
 
 .btn-link {
