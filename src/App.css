@@ -401,7 +401,7 @@
 }
 
 /* Style for the contact section header */
-#contact h2 {
+#contact h1 {
   font-size: 36px;
   margin-bottom: 30px;
   text-align: center;
@@ -442,9 +442,8 @@
   justify-content: center;
 }
 
-/* Style for the phone and email links */
 #contact .btn-link {
-  color: rgb(253, 117, 53);
+  color: #555;
   font-size: 2rem;
   padding: 10px 20px;
   margin-top: 20px;
@@ -461,7 +460,7 @@
 
 /* Media query for small screens */
 @media (max-width: 768px) {
-  #contact h2 {
+  #contact h1 {
     font-size: 30px;
   }
 
