@@ -543,7 +543,7 @@
 
   /* Add any other necessary styles for landscape view */
 }
-@media screen and (max-width: 730px) and (max-height: 474px) and (orientation: landscape) {
+@media screen and (max-width: 1200px) and (max-height: 569px) and (orientation: landscape) {
   .heroTitle {
     font-size: 1.5rem;
   }
