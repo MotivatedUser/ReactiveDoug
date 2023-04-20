@@ -543,7 +543,7 @@
 
   /* Add any other necessary styles for landscape view */
 }
-@media screen and (max-width: 1200px) and (max-height: 569px) and (orientation: landscape) {
+@media screen and (max-width: 1300px) and (max-height: 690px)  {
   .heroTitle {
     font-size: 1.5rem;
   }
@@ -568,8 +568,40 @@
   }
   .heroText3 {
     top: 68%;
-    left: 30%;
+    left: 25%;
+  }
+  .resumeButton-orange {
+    padding: 5px 5px;
   }
 
   /* Add any other necessary styles for landscape view */
+}
+@media screen and (max-width: 277px) and (max-height: 678px) {
+  .heroTitle {
+    font-size: 1.25rem;
+  }
+
+  .heroText {
+    font-size: 12px;
+  }
+
+  .heroText1,
+  .heroText2,
+  .heroText3 {
+    width: 60%;
+  }
+  .heroText1 {
+    top: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .heroText2 {
+    top: 52%;
+  }
+  .heroText3 {
+    top: 72%;
+    font-size: 1rem;
+  }
+  .resumeButton-orange {
+    padding: 5px 5px;
+  }
 }
