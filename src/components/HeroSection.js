@@ -13,7 +13,7 @@ const HeroSection = () => {
         alt="A nice sunset in Otis Orchards, WA looking toward Spokane Valley, WA"
       />
       <div>
-        <h5 className="heroTitle">Hello, I'm Doug Altermatt</h5>
+        <h1 className="heroTitle">Hello, I'm Doug Altermatt</h1>
       </div>
       
       <div>
@@ -30,7 +30,7 @@ const HeroSection = () => {
         </p>
         
         <p className="heroText heroText3" >
-        <OrangeResumeButton />
+        <OrangeResumeButton role="button" />
         </p>
         
       </div>

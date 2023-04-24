@@ -25,32 +25,32 @@ const Header = (props) => {
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto' navbar>
                     <NavItem>
-                        <NavLink className='nav-link' to='/'>
+                        <NavLink className='nav-link' to='/' href='/'>
                             <FcHome /> Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/about'>
+                        <NavLink className='nav-link' to='/about' href='/about'>
                            <FcAbout /> About
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/projects'>
+                        <NavLink className='nav-link' to='/projects' href='/projects'>
                             <FcBinoculars /> Projects
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/resume'>
+                        <NavLink className='nav-link' to='/resume' href='/resume'>
                         <FcBusinessman /> Resume
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/skills'>
+                        <NavLink className='nav-link' to='/skills' href='/skills'>
                             <FcBullish /> Skills
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/contact'>
+                        <NavLink className='nav-link' to='/contact' href='/contact'>
                         <FcAssistant /> Contact
                         </NavLink>
                     </NavItem>
