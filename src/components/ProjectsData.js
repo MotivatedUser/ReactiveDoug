@@ -1,4 +1,15 @@
 export const projectsData = [
+  
+  {
+    title: "Healthy & Vibrant",
+    image: process.env.PUBLIC_URL + "/images/healthy-image.jpg",
+    url: "https://motivateduser.github.io/healthy-and-vibrant/",
+    technologies:
+"React, React-DOM, React-Router-DOM, React-Hook-Form, React-Icons, React-Slick, ReactStrap, Bootstrap, Slick-Carousel, Web-Vitals, GH-Pages",
+
+learning:
+"I improved my skills in form management with React-Hook-Form and created responsive UI components using ReactStrap and Bootstrap. I utilized React-Slick for an interactive testimonial slider and practiced client-side routing with React-Router-DOM. Throughout the project, I emphasized accessibility and deployed the website to GitHub Pages.",
+  },
   {
     title: "Flashcards",
     image: process.env.PUBLIC_URL + "/images/flashcards-image.jpg",
