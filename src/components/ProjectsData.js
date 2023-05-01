@@ -3,7 +3,7 @@ export const projectsData = [
   {
     title: "Healthy & Vibrant",
     image: process.env.PUBLIC_URL + "/images/healthy-image.jpg",
-    url: "https://motivateduser.github.io/healthy-and-vibrant/",
+    url: "https://healthyandvibrant.org/",
     technologies:
 "React, React-DOM, React-Router-DOM, React-Hook-Form, React-Icons, React-Slick, ReactStrap, Bootstrap, Slick-Carousel, Web-Vitals, GH-Pages",
 
