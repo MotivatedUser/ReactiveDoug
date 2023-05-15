@@ -1,14 +1,23 @@
 export const projectsData = [
-  
+  {
+    title: "React Pro Solutions LLC",
+    image: process.env.PUBLIC_URL + "/images/ScreenshotWebsite.webp",
+    url: "https://reactprosolutions.com/",
+    technologies:
+      "React, React-DOM, React-Router-DOM, React-Hook-Form, React-Icons, React-Bootstrap, ReactStrap, Bootstrap, EmailJS, Redux Toolkit, Web-Vitals, GH-Pages",
+
+    learning:
+      "I honed my skills in managing forms using React-Hook-Form and crafted responsive UI components leveraging the power of React-Bootstrap and ReactStrap. I integrated EmailJS for handling email services and further improved my command over state management with Redux Toolkit. Client-side routing was implemented with React-Router-DOM. I ensured the application is performant and optimized with Web-Vitals and deployed the website on GitHub Pages.",
+  },
   {
     title: "Healthy & Vibrant",
     image: process.env.PUBLIC_URL + "/images/healthy-image.jpg",
     url: "https://healthyandvibrant.org/",
     technologies:
-"React, React-DOM, React-Router-DOM, React-Hook-Form, React-Icons, React-Slick, ReactStrap, Bootstrap, Slick-Carousel, Web-Vitals, GH-Pages",
+      "React, React-DOM, React-Router-DOM, React-Hook-Form, React-Icons, React-Slick, ReactStrap, Bootstrap, Slick-Carousel, Web-Vitals, GH-Pages",
 
-learning:
-"I improved my skills in form management with React-Hook-Form and created responsive UI components using ReactStrap and Bootstrap. I utilized React-Slick for an interactive testimonial slider and practiced client-side routing with React-Router-DOM. Throughout the project, I emphasized accessibility and deployed the website to GitHub Pages.",
+    learning:
+      "I improved my skills in form management with React-Hook-Form and created responsive UI components using ReactStrap and Bootstrap. I utilized React-Slick for an interactive testimonial slider and practiced client-side routing with React-Router-DOM. Throughout the project, I emphasized accessibility and deployed the website to GitHub Pages.",
   },
   {
     title: "Flashcards",
