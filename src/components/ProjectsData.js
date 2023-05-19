@@ -1,5 +1,16 @@
 export const projectsData = [
   {
+    title: "Bed and Breakfast",
+    image: process.env.PUBLIC_URL + "/images/BNBSiteImage.jpg",
+    url: "https://motivateduser.github.io/bed-and-breakfast",
+    technologies:
+      "React, React-DOM, React-Router-DOM, React-Icons, ReactStrap, Bootstrap, React-Modal, React-Slick, Slick-Carousel, GH-Pages, Web-Vitals",
+
+    learning:
+      "Throughout this project, I sharpened my skills in React, especially with libraries such as React-Router-DOM for client-side routing and React-Icons for implementing icons. I utilized ReactStrap and Bootstrap for creating responsive UI components. React-Modal was used for modals and React-Slick, along with Slick-Carousel, for creating carousel effects. I deployed the application on GitHub Pages using the gh-pages package.",
+  },
+
+  {
     title: "React Pro Solutions LLC",
     image: process.env.PUBLIC_URL + "/images/ScreenshotWebsite.webp",
     url: "https://reactprosolutions.com/",
