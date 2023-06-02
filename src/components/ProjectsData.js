@@ -1,5 +1,50 @@
 export const projectsData = [
   {
+    title: "Mobile Mower Mechanic App",
+    image: process.env.PUBLIC_URL + "/images/MowerSite.jpg",
+    url: "https://motivateduser.github.io/smallengine-mechanic-webapp/",
+    technologies:
+      "React, ReactStrap, React-Modal, React-Slick, Bootstrap, React-Router-DOM, GH-Pages, React-Icons, Slick-Carousel, Web-Vitals, React-DOM",
+    learning:
+      "This project allowed me to delve deeper into the utilization of React and its libraries. The focus here was to implement Bootstrap's responsive features for the application's UI. I managed client-side routing with React-Router-DOM and implemented carousel effects using React-Slick and Slick-Carousel. The project was successfully deployed via GitHub Pages.",
+  },
+  {
+    title: "Pest Control App",
+    image: process.env.PUBLIC_URL + "/images/PestSite.jpg",
+    url: "https://www.critterquiter.com",
+    technologies:
+      "React, ReactStrap, React-Modal, React-Slick, Bootstrap, React-Router-DOM, GH-Pages, React-Icons, Slick-Carousel, Web-Vitals, React-DOM",
+    learning:
+      "The Pest Control App provided a unique challenge of building a responsive and dynamic UI using ReactStrap and Bootstrap. Leveraging React-Modal for modal views added interactivity to the user experience. Deployment via GitHub Pages demonstrated the utility of the gh-pages package in a real-world project.",
+  },
+  {
+    title: "Lawn Care App",
+    image: process.env.PUBLIC_URL + "/images/LawncareSite.jpg",
+    url: "https://www.yougrowwecut.com",
+    technologies:
+      "React, ReactStrap, React-Modal, React-Slick, Bootstrap, React-Router-DOM, GH-Pages, React-Icons, Slick-Carousel, Web-Vitals, React-DOM",
+    learning:
+      "The Lawn Care App was a practical application of several React libraries, such as React-Icons, to enhance visual appeal. The project involved using React-Router-DOM for smooth client-side routing. This endeavor further solidified my understanding of deploying applications on GitHub Pages using the gh-pages package.",
+  },
+  {
+    title: "Fishing Guide App",
+    image: process.env.PUBLIC_URL + "/images/FishingSite.jpg",
+    url: "https://motivateduser.github.io/fishing-webapp/",
+    technologies:
+      "React, ReactStrap, React-Modal, React-Slick, Bootstrap, React-Router-DOM, GH-Pages, React-Icons, Slick-Carousel, Web-Vitals, React-DOM",
+    learning:
+      "Developing the Fishing Guide App offered an opportunity to experiment with various libraries like React-Icons and React-Modal, improving my skills in implementing icons and modals. This project was also an exercise in building dynamic and responsive UI components using ReactStrap and Bootstrap.",
+  },
+  {
+    title: "Mobile Auto Mechanic App",
+    image: process.env.PUBLIC_URL + "/images/MobileAutoSite.jpg",
+    url: "https://motivateduser.github.io/mobile-mechanic-webapp/",
+    technologies:
+      "React, ReactStrap, React-Modal, React-Slick, Bootstrap, React-Router-DOM, GH-Pages, React-Icons, Slick-Carousel, Web-Vitals, React-DOM",
+    learning:
+      "The Mobile Auto Mechanic App was a complex project involving the use of various libraries such as React-Slick and Slick-Carousel to create carousel effects. Particularly, I deepened my understanding of CSS customization in conjunction with ReactStrap. Moreover, this required a custom solution to implement the application's testimonial section.",
+  },
+  {
     title: "Bed and Breakfast",
     image: process.env.PUBLIC_URL + "/images/BNBSiteImage.jpg",
     url: "https://motivateduser.github.io/bed-and-breakfast",
